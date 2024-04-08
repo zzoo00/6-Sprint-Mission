@@ -4,6 +4,7 @@
 
 :root {
   --primary-color: #3692ff;
+  --second-color: #374151;
 }
 
 body {
@@ -66,7 +67,7 @@ body {
   margin-top: 0;
   font-size: 40px;
   font-weight: 700;
-  color: #374151;
+  color: var(--second-color);
   letter-spacing: 0.02em;
 }
 .search-btn {
@@ -102,7 +103,7 @@ body {
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  color: #374151;
+  color: var(--second-color);
 }
 .home span {
   font-size: 24px;
