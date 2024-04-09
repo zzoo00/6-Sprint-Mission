@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta
+      charset="utf-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>판다마켓</title>
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="index.html">
+        <img
+          src="../image/logo@3x.png"
+          class="header__logo"
+          alt="판다마켓 로고"
+        />
+      </a>
+    </div>
+    <div class="signup-form">
+      <form class="signup">
+        <label for="email">이메일</label>
+        <input
+          type="text"
+          placeholder="이메일을 입력해주세요"
+          class="signup__email"
+          id="email"
+        />
+        <label for="name">닉네임</label>
+        <input
+          type="text"
+          placeholder="닉네임을 입력해주세요"
+          class="signup__name"
+          id="name"
+        />
+        <label for="password">비밀번호</label>
+        <input
+          type="password"
+          placeholder="비밀번호를 입력해주세요"
+          class="signup__pw"
+          id="password"
+        />
+        <label for="password_check">비밀번호 확인</label>
+        <input
+          type="password"
+          placeholder="비밀번호를 다시 한 번 입력해주세요"
+          class="signup__pw"
+          id="password_check"
+        />
+        <input type="submit" value="회원가입" class="signup__btn" />
+
+        <div class="signup__login">
+          <span>간편 로그인하기</span>
+          <div>
+            <a
+              href="https://www.google.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="../image/google.png"
+                class="logo-image"
+                alt="구글 로고"
+              />
+            </a>
+            <a
+              href="https://www.kakaocorp.com/page/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="../image/Component 3.png"
+                class="logo-image"
+                alt="카카오톡 로고"
+              />
+            </a>
+          </div>
+        </div>
+        <span class="signup__bottom"
+          >이미 회원이신가요?<a href="login.html">로그인</a></span
+        >
+      </form>
+    </div>
+  </body>
+</html>
