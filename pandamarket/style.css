@@ -167,6 +167,10 @@ footer div:last-child {
   .intro div {
     padding-left: 20px;
   }
+  .bottom {
+    font-size: 25px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
