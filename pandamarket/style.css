@@ -149,10 +149,6 @@ footer div:last-child {
     position: fixed;
   }
 
-  .top {
-    background-image: url("../image/Img_home_top.png");
-  }
-
   .banner {
     height: 771px;
     background-position: 100% bottom;
@@ -161,5 +157,14 @@ footer div:last-child {
     flex-direction: row;
     justify-content: center;
     padding-top: 100px;
+  }
+  .intro {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro div {
+    padding-left: 20px;
   }
 }
