@@ -61,8 +61,10 @@ body {
 .intro {
   margin-left: 40px;
   font-family: Pretendard;
+  width: 340px;
 }
-.intro h1 {
+.intro div {
+  width: 100%;
   margin-bottom: 30px;
   margin-top: 0;
   font-size: 40px;
