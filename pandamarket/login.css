@@ -86,3 +86,17 @@
   color: #3182f6;
   font-weight: 500;
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .login {
+    width: 100%;
+  }
+  .header__logo {
+    width: 198px;
+  }
+  .login-form {
+    margin: 0 16px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
