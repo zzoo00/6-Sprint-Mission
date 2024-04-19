@@ -87,6 +87,13 @@
   font-weight: 500;
 }
 
+.hide {
+  display: none;
+}
+
+[class^="error-message"] {
+  color: red;
+}
 @media (min-width: 375px) and (max-width: 767px) {
   .login {
     width: 100%;
