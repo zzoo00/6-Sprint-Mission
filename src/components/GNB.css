@@ -3,13 +3,17 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  gap: 30px;
+  gap: 20px;
+  border-bottom: 1px solid rgb(213, 213, 213);
 }
 
 .GNB .nav__menu {
-  flex: 1;
-}
-
-.GNB span {
-  margin: 10px;
+  flex-grow: 1;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 15px;
+  color: gray;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
