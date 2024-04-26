@@ -1,0 +1,16 @@
+button {
+  cursor: pointer;
+  background-color: #3692ff;
+  border: none;
+  padding: 12px 23px;
+  border-radius: 8px;
+  color: white;
+  min-width: 88px;
+  height: 42px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Pretendard;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
